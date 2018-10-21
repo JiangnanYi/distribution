@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ad53d215-9fc3-440a-a3aa-2f0fd5b1628c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../BookWeb/src/dao/BookDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookWeb/src/dao/BookInMemoryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookWeb/src/vo/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books/src/com/nf/bookstore1/dao/BookDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books/src/com/nf/bookstore1/dao/BookInMemoryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books/src/com/nf/bookstore1/dao/BookJSONDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books/src/com/nf/bookstore1/dao/BookMySQLDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books/src/com/nf/bookstore1/dao/BookSqliteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books/src/com/nf/bookstore1/dao/BookXMLDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books/src/com/nf/bookstore1/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books/src/com/nf/bookstore1/session/DBSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books/src/com/nf/bookstore1/session/MemorySession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books/src/com/nf/bookstore1/session/MySession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books/src/com/nf/bookstore1/session/SessionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books/src/com/nf/bookstore1/test/AServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books/src/com/nf/bookstore1/test/BServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books/src/com/nf/bookstore1/test/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books/src/util/WebUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books_Reconstruction/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books_Reconstruction/src/main/java/nf/nf147/dao/BookDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books_Reconstruction/src/main/java/nf/nf147/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books_Reconstruction/src/main/java/nf/nf147/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books_Reconstruction/src/main/java/nf/nf147/service/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Car/src/dao/CarDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Car/src/dao/CarInMemoryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Car/src/entity/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Car/src/util/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fruitss/src/main/java/nf/nf147/annotation/Alias.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fruitss/src/main/java/nf/nf147/annotation/AnnotationBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fruitss/src/main/java/nf/nf147/annotation/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fruitss/src/main/java/nf/nf147/exe/DemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fruitss/src/main/java/nf/nf147/exe/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fruitss/src/main/java/nf/nf147/exe/XMLReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fruitss/src/main/java/nf/nf147/fruits/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fruitss/src/main/java/nf/nf147/fruits/Banana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fruitss/src/main/resources/fruits.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWebs/src/com/Stab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KeTang/src/cn/Stm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven_Module/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven_Module_Gammon/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven_Module_web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprGo/src/main/java/com/nf147/bookstore_ssm/cn/cs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprGo/src/main/java/com/nf147/bookstore_ssm/cn/cs2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprGo/src/main/java/com/nf147/bookstore_ssm/cn/cs3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprGo/src/main/java/com/nf147/bookstore_ssm/cn/csTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprGo/src/main/java/com/nf147/bookstore_ssm/dao/BookDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprGo/src/main/java/com/nf147/bookstore_ssm/dao/LogDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprGo/src/main/java/com/nf147/bookstore_ssm/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprGo/src/main/java/com/nf147/bookstore_ssm/entity/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprGo/src/main/java/com/nf147/bookstore_ssm/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprGo/src/main/java/com/nf147/bookstore_ssm/service/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprGo/src/main/java/com/nf147/bookstore_ssm/service/LogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprGo/src/main/resources/com.nf147.bookstore_ssm.dao/BookDAO.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprGo/src/main/resources/com.nf147.bookstore_ssm.dao/LogDAO.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprGo/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprGo/src/main/resources/mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprGo/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprGo/src/main/resources/spring-root.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprGo/src/main/webapp/WEB-INF/views/book_detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprGo/src/main/webapp/WEB-INF/views/book_insert.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprGo/src/main/webapp/WEB-INF/views/book_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprGo/src/main/webapp/WEB-INF/views/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringGo/src/com/cs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebSockets/src/com/websocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_s/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_s/src/dao/BookDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_s/src/dao/BookInMemoryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_s/src/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_s/src/util/WebUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/generator-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../equals/src/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../equals/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../equals/src/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../equals/src/equals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/src/dao/DBU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/src/dao/DataMigration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/src/util/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/src/util/DBUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/src/vo/Lagou.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service/src/cn/Da.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service/src/cn/HelloFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service/src/cn/HelloListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_dbeaver_rebuild/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_dbeaver_rebuild/src/main/java/com/lij/dao/BillingInfoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_dbeaver_rebuild/src/main/java/com/lij/dao/CustomerDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_dbeaver_rebuild/src/main/java/com/lij/dao/InvoiceDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_dbeaver_rebuild/src/main/java/com/lij/entity/BillingInfoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_dbeaver_rebuild/src/main/java/com/lij/entity/CustomerEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_dbeaver_rebuild/src/main/java/com/lij/entity/InvoiceEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_dbeaver_rebuild/src/main/resources/generator-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_dbeaver_rebuild/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_dbeaver_rebuild/src/main/resources/mapper/AllSpring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_dbeaver_rebuild/src/main/resources/mapper/CustormerDAO.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_dbeaver_rebuild/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_dbeaver_rebuild/src/test/java/com/lij/test/InvoiceAndCustomerEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_dbeaver_sc/src/main/java/com/soecode/lyf/dao/BillingInfoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_dbeaver_sc/src/main/java/com/soecode/lyf/dao/CustomerDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_dbeaver_sc/src/main/java/com/soecode/lyf/dao/InvoiceDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_dbeaver_sc/src/main/java/com/soecode/lyf/entity/BillingInfoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_dbeaver_sc/src/main/java/com/soecode/lyf/entity/CustomerEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_dbeaver_sc/src/main/java/com/soecode/lyf/entity/InvoiceEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_dbeaver_sc/src/main/java/com/soecode/lyf/service/InvoiceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_dbeaver_sc/src/main/java/com/soecode/lyf/service/InvoiceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_dbeaver_sc/src/main/resources/com.soecode.lyf.dao/Allspring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_dbeaver_sc/src/main/resources/com.soecode.lyf.dao/BillingInfoDAO.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_dbeaver_sc/src/main/resources/com.soecode.lyf.dao/CustomerDAO.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_dbeaver_sc/src/main/resources/com.soecode.lyf.dao/InvoiceDAO.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_dbeaver_sc/src/main/resources/mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_dbeaver_sc/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_dbeaver_sc/src/main/resources/spring/spring-root.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_dbeaver_sc/src/main/resources/spring/spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_dbeaver_sc/src/main/webapp/WEB-INF/views/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_dbeaver_sc/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_dbeaver_sc/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_dbeaver_sc/src/test/java/CustomerInvoiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm_dbeaver_sc/src/test/java/InvoiceDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../carct/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../carct/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../carct/carct.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../carct/carct.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../carct/out/artifacts/carct_war_exploded/WEB-INF/classes/act.class" beforeDir="false" afterPath="$PROJECT_DIR$/../carct/out/artifacts/carct_war_exploded/WEB-INF/classes/act.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../carct/out/artifacts/carct_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../carct/out/artifacts/carct_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../carct/src/act.java" beforeDir="false" afterPath="$PROJECT_DIR$/../carct/src/act.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../carct/web/WEB-INF/classes/act.class" beforeDir="false" afterPath="$PROJECT_DIR$/../carct/web/WEB-INF/classes/act.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../carct/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../carct/web/index.jsp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1554624399">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="63" column="18" lean-forward="true" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/generator-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/generator-config.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="distribution" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="697" />
+    <option name="height" value="745" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="distribution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distribution" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distribution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distribution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distribution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distribution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distribution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distribution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distribution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distribution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distribution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distribution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lij" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distribution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distribution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540129560066" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\二学年\diea练习\distribution\src\main\java" />
+      <recent name="E:\二学年\diea练习\distribution\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad53d215-9fc3-440a-a3aa-2f0fd5b1628c" name="Default Changelist" comment="" />
+      <created>1540128192217</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540128192217</updated>
+      <workItem from="1540128195429" duration="971000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="971000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" weight="0.32980332" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="63" column="18" lean-forward="true" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lij/dao/InvoiceDAO.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generator-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
